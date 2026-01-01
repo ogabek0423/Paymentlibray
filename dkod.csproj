@@ -4,6 +4,23 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- NuGet paketi uchun majburiy metadata -->
+    <PackageId>Ogabek.MyAwesomeLibrary</PackageId>  <!-- O'zingiz xohlagan unikal nom -->
+    <Version>1.0.0</Version>                        <!-- Har yangi versiya uchun o'zgartiring -->
+    <Authors>ogabek0423</Authors>
+    <Company>ogabek0423</Company>
+    <Description>Mening ajoyib .NET 9 kutubxonam. Qisqa va aniq tavsif.</Description>
+    <PackageTags>dotnet;library;awesome</PackageTags>
+    <RepositoryUrl>https://github.com/ogabek0423/sizning-repo-nomi</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- Paket yaratilishini majburiy qilish -->
+    <IsPackable>true</IsPackable>
+
+    <!-- Ixtiyoriy: pack paytida avto version prefix + suffix (masalan, CI da) -->
+    <!-- <VersionPrefix>1.0.0</VersionPrefix> -->
+    <!-- <VersionSuffix>preview-$(GITHUB_RUN_NUMBER)</VersionSuffix> -->
   </PropertyGroup>
 
 </Project>
